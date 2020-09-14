@@ -10,10 +10,6 @@
 }
 
 body {
-  /*временный цвет*/
-  background-color: #e0e0e0;
-  /*временный цвет*/
-
   font-family: var(--main-font);
   font-style: normal;
   color: var(--main-text-color);
