@@ -102,6 +102,11 @@ body {
 
 /* ============ HERO ============ */
 
+.hero {
+  background-color: #2f303a;
+  height: 600px;
+}
+
 .hero-title {
   font-family: var(--main-font);
   font-style: normal;
@@ -153,6 +158,12 @@ body {
 /* END TEAM */
 
 /* FOOTER */
+
+.footer {
+  background-color: #2f303a;
+  height: 252px;
+}
+
 .logo-studio-light {
   color: var(--dark-theme-color);
 }
