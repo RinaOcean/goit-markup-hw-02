@@ -94,10 +94,14 @@ body {
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .address-list-link:hover,
-.address-list-link:focus,
-.navigation-list-link:active {
+.address-list-link:focus {
   color: var(--accent-color);
 }
+
+.link-current {
+  color: var(--accent-color);
+}
+
 /* ============ END HEADER ============ */
 
 /* ============ HERO ============ */
