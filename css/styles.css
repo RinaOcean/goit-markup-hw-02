@@ -1,3 +1,167 @@
 :root {
-  --accent-color: ;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --dark-theme-color: #ffffff;
+  --dark-theme-secondary-color: rgba(255, 255, 255, 0.6);
+  --dark-logo-color: #000000;
+  --accent-color: #2196f3;
 }
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--main-color);
+}
+
+/* ============ COMPONENTS ============ */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.address {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+}
+
+.modal-button {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--dark-theme-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ============ END COMPONENTS ============ */
+
+/* ============ HEADER ============ */
+
+.logo-studio-dark {
+  color: var(--dark-logo-color);
+}
+
+.address-light-theme {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--accent-color);
+}
+/* ============ END HEADER ============ */
+
+/* ============ HERO ============ */
+
+.hero-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #FFFFFF;*/
+}
+
+/* END HERO */
+
+/* ADVANTAGES */
+.advantages-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-list-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* END ADVANTAGES */
+
+/* TEAM */
+.staff-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+}
+
+.staff-proffession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* END TEAM */
+
+/* FOOTER */
+.logo-studio-light {
+  /*color: var(--dark-theme-color);*/
+}
+
+.location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: var(--dark-theme-color);*/
+}
+
+.address-dark-theme {
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: var(--dark-theme-secondary-color)*/
+}
+
+/* END FOOTER */
