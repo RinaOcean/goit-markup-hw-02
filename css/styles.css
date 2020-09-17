@@ -19,6 +19,9 @@ body {
 
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
 }
 
 .link {
@@ -54,6 +57,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--dark-theme-color);
   background-color: var(--accent-color);
+  margin-top: 30px;
 }
 
 .title {
@@ -65,22 +69,37 @@ body {
   color: var(--secondary-text-color);
 }
 
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
 /* ============ END COMPONENTS ============ */
 
 /* ============ HEADER ============ */
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.navigation-list-item + .navigation-list-item {
+  margin-left: 50px;
+}
 
 .logo-studio-dark {
   color: var(--dark-logo-color);
 }
 
-.address-light-theme {
-  font-weight: 500;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-}
-
 .navigation-list-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -99,13 +118,35 @@ body {
   color: var(--accent-color);
 }
 
+.address-light-theme {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.address-list {
+  display: flex;
+  margin-left: 331px;
+}
+
+.address-list-item + .address-list-item {
+  margin-left: 50px;
+}
+
+.address-list-link {
+}
+
 /* ============ END HEADER ============ */
 
 /* ============ HERO ============ */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   height: 600px;
+  text-align: center;
 }
 
 .hero-title {
